@@ -8,7 +8,7 @@ fast without and tries to limit the time spending up the environment.
 Worthem is build on-top of some dependencies which are required
 in order for it to work.
 ### Prerequisites [PHP]
-We will work with[Composer](https://getcomposer.org/) as our dependency manager.
+We will work with [Composer](https://getcomposer.org/) as our dependency manager.
 
 Create a new project in direct into into it and run
 ```
@@ -18,17 +18,19 @@ Follow the guidelines to create the new project. When done,
 open the newly created file *composer.json* and insert the
 following lines which will add [WordPress Core Installer](https://github.com/johnpbloch/wordpress-core-installer) to the dependencies.
 ```
-"type": "wordpress-core",
 "require": {
-	"johnpbloch/wordpress-core-installer": "^1.0"
+    "php": ">=5.5",
+	"johnpbloch/wordpress-core-installer": "~0.2",
+	"johnpbloch/wordpress-core": "dev-master"
+},
+"extra" : {
+    "installer-paths" : {
+        "wordpress/wp-content/plugins/{$name}/" : ["type:wordpress-plugin"],
+        "wordpress/wp-content/themes/{$name}/" : ["type:wordpress-theme"]
+    }
 }
 ```
-You can also choose a custom path word the wordpress installation
-```
-"extra": {
-	"wordpress-install-dir": "custom/path"
-}
-```
+
 Save and run
 
 ```

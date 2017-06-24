@@ -37,10 +37,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="269">
-                <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <first_editor relative-caret-position="-115">
+                <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
                 <folding>
-                  <marker date="1498327266380" expanded="true" signature="2332:2860" ph="{...}" />
+                  <marker date="1498327985490" expanded="true" signature="2443:2971" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -209,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498325066397</updated>
-      <workItem from="1498325067751" duration="2202000" />
+      <workItem from="1498325067751" duration="2929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2202000" />
+    <option name="totallyTimeSpent" value="2929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="35" width="1857" height="1092" extended-state="6" />
@@ -269,10 +269,10 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="269">
-            <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <first_editor relative-caret-position="-115">
+            <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             <folding>
-              <marker date="1498327266380" expanded="true" signature="2332:2860" ph="{...}" />
+              <marker date="1498327985490" expanded="true" signature="2443:2971" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
